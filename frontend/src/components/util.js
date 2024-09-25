@@ -1,4 +1,4 @@
-export const baseURL = "http://localhost:5000/api";
+export const baseURL = "https://todosapp-backend-pyx5.onrender.com";
 
 export const getAccessToken = () => {
   return sessionStorage.getItem(`accessToken`);
